@@ -1,0 +1,85 @@
+body {
+  background: linear-gradient(5050deg, #91f67b, #5189be, #d22858, #df6742);
+  background-size: 400% 300%;
+  animation: BgGradient 5s ease infinite;
+  text-align: center;
+}
+
+@keyframes BgGradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+h1 {
+  color: white;
+  margin-top: 5px;
+  text-align: center;
+
+  text-transform: uppercase;
+
+  font-family: "Montserrat", sans-serif;
+
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+footer {
+  margin-top: 25px;
+  color: white;
+}
+img {
+  margin-top: 3em;
+  width: 50px;
+  height: 50px;
+}
+textarea {
+  height: 170px;
+  resize: none;
+  border-radius: 4px;
+  font-family: "Montserrat";
+  font-weight: 100;
+}
+
+.btn-mine {
+  display: inline-block;
+  height: 38px;
+  padding: 0 30px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 13px;
+  background-color: #33c3f0;
+  border-color: #33c3f0;
+  width: 40%;
+  border-radius: 4px;
+}
+
+.btn-trans {
+  display: inline-block;
+  height: 38px;
+  padding: 0 30px;
+  color: white;
+  text-align: center;
+  font-size: 11px;
+  font-family: "Montserrat";
+  font-weight: bold;
+  line-height: 38px;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: transparent;
+  border-radius: 4px;
+  border: 1px solid #bbb;
+  cursor: pointer;
+  box-sizing: border-box;
+}
